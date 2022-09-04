@@ -26,7 +26,7 @@ public class AmazonSteps {
 
 	@When("clico no {int}º produto retornado")
 	public void clico_no_terceiro_produto_retornado(Integer position) {
-		page.click_third_product(position);
+		page.click_product(position);
 	}
 
 	@Then("verifico se o preço do produto é {int} reais")

@@ -31,10 +31,10 @@ public class AmazonPage extends AmazonElements implements Interactions {
 		waitLoad(3);
 	}
 
-	public void click_third_product(Integer position) {
+	public void click_product(Integer position) {
 		List<WebElement> productList = DriverWeb.getDriver().findElements(getProductList());
 		
-		// clicar no terceiro item
+		// clicar no item na posicao desejada
 		click(productList.get(position-1));
 		waitLoad(3);
 	}

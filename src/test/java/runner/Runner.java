@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "./src/test/resources/features/", 
-		tags = "@PesquisaValor", 
+		tags = "@api", 
 		glue = "steps", 
 		plugin = { "summary","pretty", "html:target/cucumber-reports.html", "json:target/cucumber-reports" },
 		monochrome = true

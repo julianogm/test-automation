@@ -1,2 +1,2 @@
 # test-automation
-simple automation to validate prices on amazon
+simple automation with functional and api tests
